@@ -18,7 +18,7 @@ dialog{max-width:430px;width:calc(100% - 40px);padding:38px 30px 30px;border:1px
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 /* Ajustes validados em telas pequenas. */
-@media(max-width:767px){.gallery-section{overflow-x:hidden}.beginner-section{overflow-x:hidden}.project-photo{aspect-ratio:1}.offer-card{order:-1}.hero-description{font-size:15px}.beginner-copy>p:not(.eyebrow){font-size:14px}.steps p,.guide-features p,.bonus-list p{font-size:13px}.offer-includes li{font-size:12px}.faq-list summary{font-size:14px}.faq-list details>p{font-size:13px}.offer-story>p:not(.eyebrow){font-size:14px}}
+@media(max-width:767px){main{overflow-x:hidden}.gallery-section{overflow-x:hidden}.beginner-section{overflow:hidden}.project-photo{aspect-ratio:1}.offer-card{order:-1}.hero-description{font-size:15px}.beginner-copy>p:not(.eyebrow){font-size:14px}.steps p,.guide-features p,.bonus-list p{font-size:13px}.offer-includes li{font-size:12px}.faq-list summary{font-size:14px}.faq-list details>p{font-size:13px}.offer-story>p:not(.eyebrow){font-size:14px}}
 @media(max-width:374px){.hero h1{font-size:54px}.hero-description{font-size:14px}.offer-includes li{font-size:11px}}
 
 @media(max-width:374px){.round-seal{right:-5px}}
