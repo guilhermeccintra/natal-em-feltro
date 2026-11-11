@@ -56,6 +56,38 @@
   // Enviar PageView para a API de Conversões do Meta (CAPI)
   sendCapi('PageView');
 
+  // Disparar ViewContent ao rolar levemente a página (>= 150px)
+  let viewContentFired = false;
+  const triggerViewContent = () => {
+    if (viewContentFired) return;
+    viewContentFired = true;
+    window.removeEventListener('scroll', onScrollCheck);
+
+    const eventId = 'vc_' + Date.now() + '_' + Math.random().toString(36).substring(2, 9);
+    const customData = {
+      content_name: 'Natal em Feltro',
+      content_type: 'product',
+      value: 29.90,
+      currency: 'BRL'
+    };
+
+    if (typeof window.fbq === 'function') {
+      window.fbq('track', 'ViewContent', customData, { eventID: eventId });
+    }
+    sendCapi('ViewContent', customData, eventId);
+  };
+
+  const onScrollCheck = () => {
+    if ((window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0) >= 150) {
+      triggerViewContent();
+    }
+  };
+
+  window.addEventListener('scroll', onScrollCheck, { passive: true });
+  if ((window.scrollY || window.pageYOffset || document.documentElement.scrollTop || 0) >= 150) {
+    triggerViewContent();
+  }
+
   const trackCheckout = () => {
     const eventId = 'ic_' + Date.now() + '_' + Math.random().toString(36).substring(2, 9);
     const customData = {
