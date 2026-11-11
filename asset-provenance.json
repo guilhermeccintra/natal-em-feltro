@@ -1,0 +1,279 @@
+{
+  "ebook_pages": 60,
+  "pattern_pages": 25,
+  "projects": [
+    {
+      "asset": "projeto-01.webp",
+      "ebook_page": 7,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-02.webp",
+      "ebook_page": 8,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-03.webp",
+      "ebook_page": 9,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-04.webp",
+      "ebook_page": 10,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-05.webp",
+      "ebook_page": 11,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-06.webp",
+      "ebook_page": 12,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-07.webp",
+      "ebook_page": 13,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-08.webp",
+      "ebook_page": 14,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-09.webp",
+      "ebook_page": 15,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-10.webp",
+      "ebook_page": 16,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-11.webp",
+      "ebook_page": 17,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-12.webp",
+      "ebook_page": 18,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-13.webp",
+      "ebook_page": 19,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-14.webp",
+      "ebook_page": 20,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-15.webp",
+      "ebook_page": 21,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-16.webp",
+      "ebook_page": 22,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-17.webp",
+      "ebook_page": 23,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-18.webp",
+      "ebook_page": 24,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-19.webp",
+      "ebook_page": 25,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-20.webp",
+      "ebook_page": 26,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-21.webp",
+      "ebook_page": 27,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-22.webp",
+      "ebook_page": 28,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-23.webp",
+      "ebook_page": 29,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-24.webp",
+      "ebook_page": 30,
+      "size": [
+        720,
+        864
+      ]
+    },
+    {
+      "asset": "projeto-25.webp",
+      "ebook_page": 31,
+      "size": [
+        720,
+        864
+      ]
+    }
+  ],
+  "previews": [
+    {
+      "asset": "capa-real.webp",
+      "file": "ebook",
+      "pdf_page": 1,
+      "size": [
+        1100,
+        1556
+      ]
+    },
+    {
+      "asset": "previa-tecnicas.webp",
+      "file": "ebook",
+      "pdf_page": 5,
+      "size": [
+        1350,
+        1910
+      ]
+    },
+    {
+      "asset": "previa-projeto-noel.webp",
+      "file": "ebook",
+      "pdf_page": 7,
+      "size": [
+        1350,
+        1910
+      ]
+    },
+    {
+      "asset": "previa-molde-noel.webp",
+      "file": "moldes",
+      "pdf_page": 1,
+      "size": [
+        1350,
+        1910
+      ]
+    },
+    {
+      "asset": "previa-projeto-arvore.webp",
+      "file": "ebook",
+      "pdf_page": 17,
+      "size": [
+        1350,
+        1910
+      ]
+    },
+    {
+      "asset": "previa-molde-arvore.webp",
+      "file": "moldes",
+      "pdf_page": 11,
+      "size": [
+        1350,
+        1910
+      ]
+    },
+    {
+      "asset": "previa-molde-gingerbread.webp",
+      "file": "moldes",
+      "pdf_page": 21,
+      "size": [
+        1350,
+        1910
+      ]
+    }
+  ],
+  "hero": {
+    "asset": "hero.webp",
+    "source": "Imagem original enviada pelo usuário para restauração do primeiro bloco",
+    "size": [
+      1536,
+      1024
+    ]
+  }
+}
