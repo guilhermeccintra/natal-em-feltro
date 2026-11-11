@@ -7,5 +7,5 @@
  * Sem um link configurado, o botão informa que as compras ainda não estão disponíveis.
  */
 window.NATAL_CONFIG = {
-  checkoutUrl: ""
+  checkoutUrl: "https://payfast.greenn.com.br/204061/offer/lg3OL8?ch_id=145266"
 };
