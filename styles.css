@@ -18,7 +18,7 @@ dialog{max-width:430px;width:calc(100% - 40px);padding:38px 30px 30px;border:1px
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 /* Ajustes validados em telas pequenas. */
-@media(max-width:767px){.project-photo{aspect-ratio:1}.offer-card{order:-1}.hero-description{font-size:15px}.beginner-copy>p:not(.eyebrow){font-size:14px}.steps p,.guide-features p,.bonus-list p{font-size:13px}.offer-includes li{font-size:12px}.faq-list summary{font-size:14px}.faq-list details>p{font-size:13px}.offer-story>p:not(.eyebrow){font-size:14px}}
+@media(max-width:767px){.gallery-section{overflow-x:hidden}.beginner-section{overflow-x:hidden}.project-photo{aspect-ratio:1}.offer-card{order:-1}.hero-description{font-size:15px}.beginner-copy>p:not(.eyebrow){font-size:14px}.steps p,.guide-features p,.bonus-list p{font-size:13px}.offer-includes li{font-size:12px}.faq-list summary{font-size:14px}.faq-list details>p{font-size:13px}.offer-story>p:not(.eyebrow){font-size:14px}}
 @media(max-width:374px){.hero h1{font-size:54px}.hero-description{font-size:14px}.offer-includes li{font-size:11px}}
 
 @media(max-width:374px){.round-seal{right:-5px}}
@@ -27,6 +27,8 @@ dialog{max-width:430px;width:calc(100% - 40px);padding:38px 30px 30px;border:1px
 .hero-frame.hero-collection{display:grid;grid-template-columns:1.1fr .9fr;grid-template-rows:1fr 1fr;gap:6px;background:#eee2cc}
 .hero-collection>img{min-height:0;width:100%;height:100%;object-fit:cover;object-position:center}
 .hero-collection>img:first-child{grid-row:1/3}
+.hero-frame.hero-single{overflow:hidden;background:#eee2cc}
+.hero-single>img{width:100%;height:100%;object-fit:cover;object-position:center}
 .project-photo img.project-original{position:static;width:100%;height:100%;object-fit:cover;object-position:center}
 .book-mockup.actual-cover{padding:0 8px 0 0;width:278px}
 .actual-cover>img{width:100%;height:auto;border-radius:2px 5px 5px 2px}
@@ -70,6 +72,7 @@ dialog{max-width:430px;width:calc(100% - 40px);padding:38px 30px 30px;border:1px
 @media(max-width:767px){
  .hero-frame.hero-collection{aspect-ratio:1.05;gap:4px;border-top-left-radius:80px}
  .hero-collection>img:first-child{object-position:50% 52%}
+ .hero-frame.hero-single{aspect-ratio:1.2;border-top-left-radius:80px}
  .hero-visual figcaption{font-size:8px}
  .project-photo:has(.project-original){aspect-ratio:5/6}
  .project-photo img.project-original{object-fit:contain}
