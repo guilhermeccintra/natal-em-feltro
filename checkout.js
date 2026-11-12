@@ -2,8 +2,10 @@
  * CONFIGURAÇÃO DO CHECKOUT
  * Cole o link completo do seu checkout entre as aspas abaixo.
  * Exemplo: checkoutUrl: "https://seu-checkout.com/seu-produto"
- * O botão do bloco de oferta abre o checkout na mesma aba.
- * Todos os botões de conversão dos outros blocos levam até #oferta.
+ * Os quatro botões com data-checkout abrem este endereço na mesma aba.
+ * Eles ficam na prévia do material, na oferta, no encerramento e na barra móvel.
+ * Os botões iniciais e o link "Ver oferta" continuam levando até #oferta.
+ * Se trocar o endereço, atualize os quatro href no HTML para o uso sem JavaScript.
  * Sem um link configurado, o botão informa que as compras ainda não estão disponíveis.
  */
 window.NATAL_CONFIG = {

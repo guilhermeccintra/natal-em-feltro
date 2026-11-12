@@ -1,29 +1,29 @@
-# Natal em Feltro
+# Natal em Feltro — projeto revisado
 
-Landing page estática, responsiva e sem dependências externas.
+## Abrir ou publicar
 
-## Adicionar o checkout
+Extraia o ZIP inteiro. Para visualizar a página, abra `index.html` mantendo `styles.css`, `checkout.js`, `app.js` e a pasta `assets` juntos.
 
-Edite `checkout.js` e substitua o valor vazio de `checkoutUrl` pelo endereço completo do checkout, começando com `https://`.
+Para atualizar o site existente, envie os arquivos do projeto à sua hospedagem pelo seu processo habitual. A integração de servidor em `api/capi.js` depende de um ambiente compatível, como a Vercel. Abrir o HTML localmente ou usar apenas hospedagem estática não executa essa função.
 
-O botão de compra do bloco `#oferta` usa esse endereço. Os CTAs dos blocos anteriores e a barra inferior no celular levam para `#oferta`. Enquanto o endereço estiver vazio, a página informa que as compras ainda não estão disponíveis; nenhuma compra é simulada.
+A pasta `.vercel` foi preservada. O histórico `.git` não acompanha este pacote de entrega. Nenhuma publicação foi feita durante esta revisão.
 
-## Conteúdo
+## Destinos dos botões
 
-- Preço informado no briefing: R$ 29,90, pagamento único.
-- 25 projetos-base, sugestões de variações, moldes A4 e 5 bônus conforme o escopo do produto enviado pelo usuário.
-- A imagem de abertura usa a composição original enviada pelo usuário (`assets/hero.webp`).
-- A galeria dos 25 enfeites abre expandida, sem precisar clicar.
-- A imagem do bloco para iniciantes permanece no fluxo da página no celular, com largura e proporção responsivas.
-- A galeria usa as 25 imagens dos projetos extraídas do ebook; a capa é a página original. As próprias imagens do ebook são representações digitais, como indicado no material.
-- A seção Por dentro mostra 6 páginas extraídas dos PDFs finais: 2 tutoriais, 1 página de técnicas e 3 páginas de moldes. O ebook tem 60 páginas; o PDF separado de moldes tem 25 folhas A4.
-- Apenas imagens de prévia são distribuídas pelo site. Os PDFs completos do produto não estão publicados.
-- As prévias não servem como arquivos para impressão em escala: o comprador deve utilizar os PDFs em tamanho real (100%).
-- A origem de cada imagem e prévia está registrada em asset-provenance.json.
-- Não foram adicionados depoimentos, números de clientes, descontos anteriores, escassez, promessa de renda ou garantia não informados.
+O endereço efetivo permanece definido em `checkout.js`, com todos os parâmetros que já estavam no arquivo enviado.
 
-## Hospedagem
+Quatro botões levam diretamente ao checkout:
+- Quero o guia e os moldes, após a prévia do conteúdo;
+- Quero meu Natal em Feltro, no bloco de oferta;
+- Quero começar a criar, no encerramento;
+- Quero meu kit, na barra fixa do celular.
 
-Publique o conteúdo deste ZIP em qualquer hospedagem de arquivos estáticos. `index.html`, `styles.css`, `checkout.js`, `app.js` e `assets/` devem ficar juntos.
+Os botões iniciais e o link Ver oferta continuam direcionando para `#oferta`. Os links de navegação continuam em suas seções originais.
 
-A publicação pelo Sites utiliza `.openai/hosting.json`. O site foi criado com acesso privado para revisão pelo proprietário. Os metadados canônicos e Open Graph devem ser atualizados se o site for movido para um domínio diferente.
+Os quatro botões de compra possuem `data-checkout`, aproveitando o comportamento e o rastreamento existentes em `app.js`. Seus `href` também correspondem ao endereço configurado, para funcionar sem JavaScript. Ao trocar o checkout no futuro, atualize `checkout.js` e os quatro `href` no HTML.
+
+## O que foi preservado
+
+CSS, imagens, ícones, preços, conteúdo comercial, `app.js`, `api/capi.js`, galeria, perguntas frequentes e configuração da hospedagem. Não foi adicionada a classe de largura total da oferta aos outros botões.
+
+Consulte `REVISAO_BOTOES.md` para o relatório de validação e um ponto de atenção sobre a chave da Meta.
